@@ -1,0 +1,3 @@
+C:/Users/charl/Dev/CPP/Game/cmake-build-debug/CMakeFiles/Game.dir
+C:/Users/charl/Dev/CPP/Game/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/charl/Dev/CPP/Game/cmake-build-debug/CMakeFiles/rebuild_cache.dir
