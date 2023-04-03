@@ -1,12 +1,12 @@
 # SDL2-CLion-Template
 
 A CLion Template for SDL 2<br />
-Made with CLion 2022.3.2 and SDL2 v2.26.3 (mingw)
+Made with CLion and SDL2 (VC)
 
 <hr />
 
 **CLion Project Name :** Game<br />
-**CLion Toolchain :** MinGW (Bundled)
+**CLion Toolchain :** MinGW
 
 <hr />
 
