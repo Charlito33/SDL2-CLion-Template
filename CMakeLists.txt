@@ -1,18 +1,13 @@
 cmake_minimum_required(VERSION 3.24)
 project(Game)
 
-set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD 17)
 
-# https://www.codegrepper.com/tpc/sdl2+clion/636282?ucard=1
-#SET(CMAKE_CXX_LINK_FLAGS "-lSDL2 -lSDL2_image")
+set(SDL2_DIR SDL2-2.26.4/cmake)
 
-# https://www.codegrepper.com/tpc/sdl2+clion/501945?ucard=1
-#set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -lmingw32")
-#set(CMAKE_EXE_LINKER_FLAGS "-static-libgcc -static-libstdc++")
+find_package(SDL2 REQUIRED)
 
-include_directories(${PROJECT_SOURCE_DIR}/include)
-link_directories(${PROJECT_SOURCE_DIR}/lib)
+include_directories(${SDL2_INCLUDE_DIRS})
 
 add_executable(Game main.cpp)
-
-target_link_libraries(Game mingw32 SDL2main SDL2)
+target_link_libraries(Game ${SDL2_LIBRARIES})

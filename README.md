@@ -10,5 +10,5 @@ Made with CLion 2022.3.2 and SDL2 v2.26.3 (mingw)
 
 <hr />
 
-## Tips
-* Don't forget ``SDL2.dll`` in the same directory as the ``.exe`` file
+## Required
+Copy the content of the correct lib directory to your build directory !
